@@ -15,7 +15,8 @@ if ! [[ "$first" =~ ^[0-9]+$ ]] || ! [[ "$second" =~ ^[0-9]+$ ]]; then
     echo "Invalid input"
     exit 1
 fi
- 
+
+#Arithemetic Expressions
 add=$((first + second))
 sub=$((first - second))
 mult=$((first * second))
